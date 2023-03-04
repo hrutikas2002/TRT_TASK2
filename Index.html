@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>The Resolved Tech@major task</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="./styles/style.css">
+
+</head>
+<body>
+   
+<!-- header section starts -->
+
+<section class="header">
+
+   <a href="#" class="logo"> <i class="fas fa-utensils"></i> hungrezy. </a>
+
+   <nav class="navbar">
+      <a href="#home">home</a>
+      <a href="#about">about</a>
+      <a href="#food">food</a>
+      <a href="#gallery">gallery</a>
+      <a href="#menu">menu</a>
+      <a href="#order">order</a>
+      <a href="#blogs">blogs</a>
+   </nav>
+
+   <div id="menu-btn" class="fas fa-bars"></div>
+
+</section>
+
+<!-- header section ends    -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+   <div class="swiper home-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide" style="background: url(./images/lunch1.jpg) no-repeat;">
+            <div class="content">
+               <span>outstanding food</span>
+               <h3>delicious cooking</h3>
+               <a href="#" class="btn">get started</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background: url(./images/samosa.jpg) no-repeat;">
+            <div class="content">
+               <span>outstanding food</span>
+               <h3>morning moment</h3>
+               <a href="#" class="btn">get started</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background: url(./images/puran_poli.jpg) no-repeat;">
+            <div class="content">
+               <span>outstanding food</span>
+               <h3>authentic kitchen</h3>
+               <a href="#" class="btn">get started</a>
+            </div>
+         </div>
+
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+
+   </div>
+
+</section>
+
+<!-- home section ends -->
+<!-- About section start -->
+
+
+<section class="about" id="about">
+
+<div class="image">
+   <img src="./images/about_img.jpg" alt="">
+</div>
+
+<div class="content">
+   <h3 class="title">Welcome to our Restaurant</h3>
+   <p>Many types of Indian cuisine are made either from fish, meat, lentils, or vegetables. The specialty of Indian cuisine is its variety of spices that make each dish exotic, delicious, and stand out from the rest of the cuisines in the world. </p>
+      <a href="#" class="btn">read more</a>
+      <div class="icons-container">
+         <div class="icons">
+            <img src="./images/about-icon-1.png" alt="">
+            <h3>quality food</h3>
+         </div>
+         <div class="icons">
+            <img src="./images/about-icon-2.png" alt="">
+            <h3>food and drinks</h3>
+         </div>
+         <div class="icons">
+            <img src="./images/about-icon-3.png" alt="">
+            <h3>expert chef</h3>
+         </div>
+      </div>
+</div>
+
+</section>
+
+
+<!-- About section ends -->
+<!-- food section starts -->
+
+<section class="food" id="food">
+
+   <div class="heading">
+   <span>popular dishes</span>
+   <h3>our delicious food</h3>
+   </div>
+
+   <div class="swiper food-slider">
+
+     <div class="swiper-wrapper">
+
+      <div class="swiper-slide slide" data-name="food-1">
+         <img src="./images/our_delicious5.jpg" alt="">
+         <h3>Misal</h3>
+         <div class="price">Rs.110</div>
+      </div>
+
+      <div class="swiper-slide slide" data-name="food-2">
+         <img src="./images/our_delicious1.jpg" alt="">
+         <h3>Maharashtrian Thali</h3>
+         <div class="price">Rs.170</div>
+      </div>
+
+      <div class="swiper-slide slide" data-name="food-3">
+         <img src="./images/our_delicious2.jpg" alt="">
+         <h3>South Indian Thali</h3>
+         <div class="price">Rs.220</div>
+      </div>
+      <div class="swiper-slide slide" data-name="food-4">
+         <img src="./images/our_delicious3.jpg" alt="">
+         <h3>Medu vada</h3>
+         <div class="price">Rs.70</div>
+      </div>
+      <div class="swiper-slide slide" data-name="food-5">
+         <img src="./images/our_delicious4.jpg" alt="">
+         <h3>Puri-Bhaji</h3>
+         <div class="price">Rs.150</div>
+      </div>
+</div>
+
+   <div class="swiper-pagination"></div>
+
+</div>
+
+</section>
+
+<!-- food section ends -->
+<!-- food preview section starts -->
+
+
+<section class="food-preview-container">
+
+   <div id="close-preview" class="fas fa-times"></div>
+
+   <div class="food-preview" data-target="food-1">
+      <img src="./images/our_delicious5.jpg" alt="">
+      <h3>Misal</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p> A popular dish from the Indian state of Maharashtra!</p>
+      <div class="price">Rs.110</div>
+      <a href="#" class="btn">Buy now</a>
+   </div>
+   <div class="food-preview" data-target="food-2">
+      <img src="./images/our_delicious1.jpg" alt="">
+      <h3>Maharashtrian Thali</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>The everyday thali will have chapati (phulka, bhakri or poori) a koshimbir (salad), a chutney, a dry vegetable curry, papad, pickle and a sweet dish</p>
+      <div class="price">Rs.170</div>
+      <a href="#" class="btn">Buy now</a>
+   </div>
+   <div class="food-preview" data-target="food-3">
+      <img src="./images/our_delicious2.jpg" alt="">
+      <h3>South indian Thali</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>It consist of idli sambar,medu vada and rice with salaad.</p>
+      <div class="price">Rs.220</div>
+      <a href="#" class="btn">Buy now</a>
+   </div>
+   <div class="food-preview" data-target="food-4">
+      <img src="./images/our_delicious3.jpg" alt="">
+      <h3>Medu vada</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>delicious medu vada</p>
+      <div class="price">Rs.70</div>
+      <a href="#" class="btn">Buy now</a>
+   </div>
+   <div class="food-preview" data-target="food-5">
+      <img src="./images/our_delicious4.jpg" alt="">
+      <h3>Puri-Bhaji</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>A dish, originating from the Indian subcontinent.</p>
+      <div class="price">Rs.150</div>
+      <a href="#" class="btn">Buy now</a>
+   </div>
+
+</section>
+
+
+
+
+</section>
+
+<!-- Gallery section ends -->
+<!-- Menu section starts -->
+
+<section class="menu" id="menu">
+
+   <div class="heading">
+      <span>our menu</span>
+      <h3>our popular dishes</h3>
+   </div>
+
+   <div class="swiper menu-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide">
+            <h3 class="title">
+               breakfast
+            </h3>
+
+            <div class="box-container">
+               <div class="box">
+                  <div class="info">
+                     <h3>Samosa</h3>
+                  <p>Tasty and fresh indian samosa. </p>
+                  </div>
+                  <div class="price">Rs.35</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Medu vada</h3>
+                  <p>Delicious south indian menu!</p>
+                  </div>
+                  <div class="price">Rs.70</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Poha</h3>
+                  <p>Delicious poha with spicy rassa!</p>
+                  </div>
+                  <div class="price">Rs.40</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Sandwitch</h3>
+                  <p>Slices of sandwitch with cheese! </p>
+                  </div>
+                  <div class="price">Rs.35</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Idli Sambar</h3>
+                  <p>South indian tasty idli and sambar!</p>
+                  </div>
+                  <div class="price">Rs.60</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>dhokala</h3>
+                  <p>Start your morning with tasty dhokla!</p>
+                  </div>
+                  <div class="price">Rs.80</div>
+               </div>
+            </div>
+         </div>
+
+      <div class="swiper-pagination"></div>
+
+   </div>
+   
+
+</section>
+
+<!-- Menu section ends -->
+<!-- order section starts -->
+
+<section id="order" class="order">
+   <div class="heading">
+      <span>order now</span>
+      <h3>Login</h3>
+   </div>
+
+   <form action="">
+      <div class="box-container">
+         <div class="box">
+            <div class="inputBox">
+               <span>full name</span>
+               <input type="text" placeholder="enter your name">
+            </div>
+            <div class="inputBox">
+               <span>food name</span>
+               <input type="text" placeholder="food you want">
+            </div>
+            <div class="inputBox">
+               <span>order details</span>
+               <input type="text" placeholder="specifics with food">
+            </div>
+            <div class="inputBox">
+               <span>your address</span>
+               <textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
+            </div>
+         </div>
+         <div class="box">
+            <div class="inputBox">
+               <span>number</span>
+               <input type="number" placeholder="enter your number">
+            </div>
+            <div class="inputBox">
+               <span>how much</span>
+               <input type="number" placeholder="how many you want">
+            </div>
+            <div class="inputBox">
+               <span>when you want</span>
+               <input type="datetime-local">
+            </div>
+            <div class="inputBox">
+               <span>our address</span>
+               <p style="color:rgb(143, 143, 143);font-size:22px;"> <br><br>63, Bhulabhai Desai Marg, Breach Candy, Cumballa Hill, Mumbai, Maharashtra 400026</p> 
+            </div>
+         </div>
+      </div>
+      <input type="submit" value="order now" class="btn">
+   </form>
+</section>
+
+<!-- order section ends-->
+<!-- blog section starts-->
+
+<section class="blogs" id="blogs">
+
+   <div class="heading">
+      <span>our blogs</span>
+      <h3>our latest posts</h3>
+   </div>
+
+   <div class="swiper blogs-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="./images/latest_post1.jpg" alt="">
+               <span>Tea</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i> 4th March, 2023 </a>
+                  <a href="#"> <i class="fas fa-user"></i> by admin </a>
+               </div>
+               <a href="#" class="title">blog title goes here</a>
+               <p>Like life, tea is what you make of it and The Cup of Life helps individuals enjoy tea in more than one way.</p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="./images/blog-img-2.jpg" alt="">
+               <span>sandwich</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i> 4th March, 2023 </a>
+                  <a href="#"> <i class="fas fa-user"></i> by admin </a>
+               </div>
+               <a href="#" class="title">blog title goes here</a>
+               <p>Making a truly amazing sandwich is as much about the ingredients you use as how you slice, stack and slather them.</p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+
+         
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="./images/blog-img-1.jpg" alt="">
+               <span>coffee</span>
+            </div> 
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i> 4th March, 2023 </a>
+                  <a href="#"> <i class="fas fa-user"></i> by admin </a>
+               </div>
+               <a href="#" class="title">blog title goes here</a>
+               <p>A brewed drink prepared from roasted coffee beans, the seeds of berries from certain 'Coffea' species.</p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+   </div>
+
+</section>
+
+
+<!-- blog section ends-->
+<!-- footer section starts-->
+
+
+<section class="footer">
+
+   <div class="icons-container">
+
+      <div class="icons">
+         <i class="fas fa-clock"></i>
+            <h3>opening hour</h3>
+            <p>07:00am to 10:00pm</p>
+      </div>
+
+      <div class="icons">
+         <i class="fas fa-phone"></i>
+            <h3>phone</h3>
+            <p>+919876543210</p>
+            <p>+917894561230</p>
+      </div>
+
+      <div class="icons">
+         <i class="fas fa-envelope"></i>
+            <h3>email</h3>
+            <p>hungrezy49@gmail.com</p>
+            <p>tastyhungrezy94@gmail.com</p>
+      </div>
+
+      <div class="icons">
+         <i class="fas fa-map"></i>
+            <h3>address</h3>
+            <p>Mumbai</p>
+      </div>
+
+   </div>
+
+   <div class="credit">created by <span>hungrezy</span> | all rights reserved.</div>
+
+</section>
+
+
+<!-- footer section ends-->
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="./js/script.js"></script>
+
+<script>
+   lightGallery(document.querySelector('.gallery .gallery-container'));
+</script>
+
+</body>
+</html>
